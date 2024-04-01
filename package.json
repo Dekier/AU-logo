@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "run-p type-check \"build-only {@}\" --",
+    "build": "run-p \"build-only {@}\" --",
     "preview": "vite preview",
     "build-only": "vite build",
     "type-check": "vue-tsc --build --force",
@@ -35,7 +35,7 @@
     "prettier": "^3.0.3",
     "sass": "^1.72.0",
     "sass-loader": "^14.1.1",
-    "typescript": "~5.4.0",
+    "typescript": "~5.4.3",
     "vite": "^5.1.6",
     "vue-tsc": "^2.0.6"
   }

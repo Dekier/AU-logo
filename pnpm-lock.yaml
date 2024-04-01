@@ -68,7 +68,7 @@ devDependencies:
     specifier: ^14.1.1
     version: 14.1.1(sass@1.72.0)
   typescript:
-    specifier: ~5.4.0
+    specifier: ~5.4.3
     version: 5.4.3
   vite:
     specifier: ^5.1.6
