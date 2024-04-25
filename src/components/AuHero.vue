@@ -26,7 +26,6 @@ import AuCanvas from '../components/AuCanvas.vue'
     display: flex;
     flex-direction: column;
     justify-content: center;
-    cursor: pointer;
     line-height: 1.07;
     align-content: center;
     text-align: center;
