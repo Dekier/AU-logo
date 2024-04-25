@@ -84,7 +84,7 @@
       </div>
     </div>
     <div class="MainPage__canvas">
-      <TresCanvas
+      <!-- <TresCanvas
         v-if="isActiveTest"
         :key="canvasKey"
         :stop-test="stopTest"
@@ -94,13 +94,13 @@
         :is-active-hemisphere-light="isActiveHemisphereLight"
         :is-active-antialias="isActiveAntialias"
         @setBoxesCount="setBoxesCount"
-      />
+      /> -->
     </div>
   </div>
 </template>
 
 <script setup lang="ts">
-import TresCanvas from '../components/TresCanvas.vue'
+// import TresCanvas from '../components/TresCanvas.vue'
 import { useRenderLoop, useTresContext } from '@tresjs/core'
 import { OrbitControls, Box } from '@tresjs/cientos'
 import { ref, onMounted, watch } from 'vue'
