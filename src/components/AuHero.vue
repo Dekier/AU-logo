@@ -20,7 +20,7 @@ import AuCanvas from '../components/AuCanvas.vue'
   }
 
   &__text {
-    font-size: 84px;
+    font-size: 85px;
     color: #222222;
     font-weight: 500;
     display: flex;
