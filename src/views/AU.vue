@@ -1,7 +1,7 @@
 <template>
   <AuHeader />
   <AuHero />
-  <AuContent />
+  <!-- <AuContent /> -->
 </template>
 
 <script lang="ts" setup>
